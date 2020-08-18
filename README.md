@@ -1,4 +1,4 @@
-## This version of the user-doc doesn't contain images. I recommend using the version [here](https://docs.google.com/document/d/1maeaT1uglIzQWMiOX5FMbPA_QSzQ_XWwTwdjK9n_jf4/edit?usp=sharing).
+## This version of the user-doc doesn't contain images, so you may notice empty spaces where images are supposed to go. I recommend using the version [here](https://docs.google.com/document/d/1maeaT1uglIzQWMiOX5FMbPA_QSzQ_XWwTwdjK9n_jf4/edit?usp=sharing).
 
 # How to Use Scratch to Make a Version of Pong
 ## Difficulty: Fairly Easy
