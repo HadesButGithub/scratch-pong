@@ -1,7 +1,7 @@
 ## This version of the user-doc doesn't contain images. I recommend using the version [here](https://docs.google.com/document/d/1maeaT1uglIzQWMiOX5FMbPA_QSzQ_XWwTwdjK9n_jf4/edit?usp=sharing).
 
-## How to Use Scratch to Make a Version of Pong
-# Difficulty: Fairly Easy
+# How to Use Scratch to Make a Version of Pong
+## Difficulty: Fairly Easy
 
 Table of Contents
 - Prerequisites
@@ -11,7 +11,7 @@ Table of Contents
 - Outro
 
 
-## Prerequisites
+# Prerequisites
 To follow this tutorial, you at least need to be logged into Scratch. No other experience is needed. This tutorial is made for beginners to Scratch and is easy to follow along with. 
 
 By the end of this tutorial, you’ll have learned how to create a project, create basic controls, make sprites move and bounce, use variables and create a basic main menu (if you choose to follow that part of the tutorial).
@@ -20,7 +20,7 @@ This tutorial is made with computer in mind, and controls for touchscreen won’
 
 With that in mind, let’s get started.
 
-## Setting Up Your Project
+# Setting Up Your Project
 First, you’ll need to create a project. To do this, press the create button in the top bar.
 
 Once you’ve created your project, you’ll be brought to the coding screen. This is where you’ll create your game, which in this case, is Pong.
@@ -29,7 +29,7 @@ You’ll start with a default character, known as a sprite, but we can remove th
 
 And you’re ready to start creating!
 
-## Adding Sprites
+# Adding Sprites
 Adding sprites is easy. You have a few options to create sprites, which are all made available to you by hovering your mouse over the sprite adding button.
 
 
@@ -56,8 +56,8 @@ Then, click and drag the lines to their spots on the side of the screen.
 
 Once you’ve done that, it’s time to start working on gameplay.
 
-## Gameplay
-# Moving The Paddles
+# Gameplay
+## Moving The Paddles
 Seeing as this version of Pong is multiplayer, we’ll need to create a control method for each paddle. For this tutorial, I’ll be using W and S for the left paddle, and Up Arrow and Down Arrow for the right paddle.
 
 First, we need to make some broadcasts. A broadcast is an invisible message the average player can’t see, but other sprites can.
@@ -78,7 +78,7 @@ NOTE: When you click the right paddle, it may seem like your code has been delet
 
 The paddles are complete! Now, we can move on to making the ball move. 
 
-# The Ball
+## The Ball
 For the ball, we need to make it so that it:
 Bounces off the paddles
 Spawns back in the middle when it hits the edge and faces a random direction
@@ -113,7 +113,7 @@ And that’s it! Start your project and try it out. It should look something lik
 
 You can stop here, but I recommend adding scoring. It doesn’t take much extra effort and makes the game more competitive and fun when playing with friends.
 
-Scoring
+## Scoring
 Scoring is pretty easy to add. We just need to make a variable for player 1 and 2 score, and make them go up by one when the ball hits the respective edge.
 
 First, create a new variable. You can do this by going to the ‘Variables’ section and clicking ‘Make a Variable’.
@@ -129,7 +129,7 @@ Now do the same for the other line for player 2.
 The last thing we need to do is reset the variables when the green flag is clicked. Create another green flag action and have it set both scores to 0.
 
 
-Outro
+# Outro
 And we’re done! Your game should look something like this:
 
 You can find the project I used for example in this user-doc at https://scratch.mit.edu/projects/417467504/. I used lsullivan3’s project ‘Easy Pong ( no score )’ to get some mechanics for this game. That project can be found at https://scratch.mit.edu/projects/417017510/. 
